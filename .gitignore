@@ -7,23 +7,23 @@ nenv/*
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-vue_sampl/node_modules
-vue_sampl/.pnp
-vue_sampl/.pnp.js
+node_modules
+.pnp
+.pnp.js
 
 # testing
-vue_sampl/coverage
+coverage
 
 # production
-vue_sampl/build
+build
 
 # misc
-vue_sampl/.DS_Store
-vue_sampl/.env.local
-vue_sampl/.env.development.local
-vue_sampl/.env.test.local
-vue_sampl/.env.production.local
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-vue_sampl/npm-debug.log*
-vue_sampl/yarn-debug.log*
-vue_sampl/yarn-error.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
