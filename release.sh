@@ -1,7 +1,7 @@
 #in venv
-. ~/venv/bin/activate
+#. ~/venv/bin/activate
 #pip install -r req.txt
-pip freeze > req.txt
+#pip freeze > req.txt
 chmod u+x *.sh *.py
 #git clone -o vue_sampl https://github.com/PenguinLW/vue_sampl.git
 #git config --global user.email "diana1997525@gmail.com"

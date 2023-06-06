@@ -10,6 +10,6 @@ npm init vite@latest vue_sampl -- --template vue #npm init vite@latest vue_sampl
 
 cd vue_sampl
 npm install
-npm run dev
+npm run dev -- --host
 #deactivate
 #deactivate_node
