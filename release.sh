@@ -4,8 +4,9 @@
 #pip install -r req.txt
 #pip freeze > req.txt
 chmod u+x *.sh *.py
+l_dir=pwd
 
-git config --global --add safe.directory /media/penguinl/PenguinL/PycharmProjects/vue_sampl
+git config --global --add safe.directory $l_dir
 #git clone -o vue_sampl https://github.com/PenguinLW/vue_sampl.git
 #git config --global user.email "diana1997525@gmail.com"
 #git config --global user.name "PenguinLW"
