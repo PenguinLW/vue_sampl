@@ -6,10 +6,11 @@ npm install -g @vue/cli
 ##vue upgrade --next
 npm fund
 
-npm init vite@latest vue_sampl -- --template vue #npm init vite@latest vue_sampl --template vue
+npm init vite@latest sampl -- --template vue #npm init vite@latest sampl --template vue
 
-cd vue_sampl
-npm install
-npm run dev -- --host
+##cd sampl
+##npm install
+##npm run dev -- --host
+
 #deactivate
 #deactivate_node

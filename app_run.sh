@@ -1,5 +1,5 @@
 #in venv
 . venv/bin/activate &&. nenv/bin/activate
-cd vue_sampl
+cd sampl
 npm install
 npm run dev

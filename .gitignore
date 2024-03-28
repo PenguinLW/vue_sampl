@@ -3,10 +3,10 @@ __pycache__/*
 venv/*
 nenv/*
 node_modules/*
-vue_sampl/.vscode
+*/.vscode
 
-vue_sampl/node_modules
-vue_sampl/.DS_Store
-vue_sampl/dist
-vue_sampl/dist-ssr
-vue_sampl/*.local
+*/node_modules
+*/.DS_Store
+*/dist
+*/dist-ssr
+*/*.local
