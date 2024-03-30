@@ -3,6 +3,8 @@ __pycache__/*
 venv/*
 nenv/*
 node_modules/*
+node_modules
+/node_modules
 */.vscode
 
 */node_modules
