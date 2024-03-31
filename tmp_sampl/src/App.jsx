@@ -15,7 +15,7 @@ function App() {
   const [active, setActive] = useState(null);
   return (
     <>
-        <div>
+        <div className={"Header"}>
             <a href="https://vitejs.dev" target="_blank">
               <img src={viteLogo} className="logo" alt="Vite logo" />
             </a>
@@ -36,7 +36,9 @@ function App() {
         Click on the Vite and React logos to learn more
         </p>
 
-        <div>
+        <div className={"Main"}>
+            <p className={"content"}>
+            <section>
             <ul>
             {content.map((item, index) => (
                 <li
@@ -49,6 +51,8 @@ function App() {
                 </li>
             ))}
             </ul>
+            </section>
+            </p>
         </div>
     </>
   )
